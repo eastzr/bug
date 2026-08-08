@@ -1,4 +1,3 @@
-```js
 import { connect } from 'cloudflare:sockets';
 
 let DEFAULT_UUID = 'fe0ed675-bc05-474d-99e5-28ba9edf845a';
@@ -245,4 +244,3 @@ function createGrpcFrame(rawData) {
     frame.set(rawData, offset);
     return frame;
 }
-```
